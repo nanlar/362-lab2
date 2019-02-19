@@ -1,0 +1,56 @@
+/* Nilufer Anlar, ITMD-362 Lab2
+   Scroll friendly mobile first version: screen.css */
+
+/* ===== Basic Styles ========= */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25em;  /* 20px / 16px = 1.25em */
+  line-height: 1.2em;  /* 24px / 20px = 1.2em */
+}
+
+h2, ul, p {
+  padding-bottom: 1.2em; /* 24px / 20px = 1.2em */
+}
+
+label {
+  display: block;
+  background-color: beige;
+  text-align: center;
+  font-size: 1.25em;
+  /*width: 99%;  * not sure if needed, or 100% */
+  height: 1.2em;
+}
+
+/* for phones and tablets ??? */
+@media screen and (min-width: 480px) {
+  label {
+    display: inline-block;
+    color: blue;
+    background-color: linen;
+    margin-right: 5px;
+    font-size: 1.3em;
+    width: 40%;
+    height: 1.2em;  
+  }
+} 
+
+/* for Desktops and wide screens ??? */
+@media screen and (min-width: 992px) {
+  label {
+    display: inline-block;
+    color: red;
+    background-color: beige;
+    margin-right: 5px;
+    font-size: 1.3em;
+    width: 50%;
+    height: 1.2em;  
+  }
+} 
+
+
+
+
+
+
+
