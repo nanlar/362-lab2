@@ -11,29 +11,29 @@
   <body>
   
     <h2>ITMD-362 Lab2: Form for Form Semantics and Normalized Styles</h2>
+    <p></p>
     <form method="post" action="#null">
       <fieldset>
         <legend>Input Form</legend>
         <div>
-          <label for="email">Email Address: </label>
-          <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="" required>
+          <label for="email">Email Address:  </label>
+          <input type="email" name="email" id="email" placeholder="example@me.com" required>
         </div>
       
         <div>
           <label for="phone">Phone Number:  </label>
-          <input type="text" name="email" id="phone" pattern="^.+@.+$" placeholder="" required>
+          <input type="number" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required>
         </div>
       
         <div>
-          <label for="email">Date of Birth:  </label>
-          <input type="text" name="birthdate" id="dob" pattern="^.+@.+$" placeholder="" required>
+          <label for="dob">Date of Birth:  </label>
+          <input type="date" name="birthdate" id="dob" placeholder="mm/dd/year" required>
         </div>
-        <p></p>
+      </fieldset>
+      <p></p>
         <div>
           <input type="submit" value="Submit">
         </div>
-    
-      </fieldset>
     </form>
 
   </body>
