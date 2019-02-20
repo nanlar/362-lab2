@@ -14,11 +14,8 @@ h2, ul, p {
 }
 
 label {
-  display: block;
   color: blue;
   background-color: beige;
-  font-size: 1.25em;
-  height: 1.2em;
 }
 
 /* for tablets, desktops and wide screens */
@@ -26,8 +23,7 @@ label {
   label {
     display: inline-block;
     color: red;
-    background-color: linen;
-    margin-right: 5px; 
+    background-color: linen; 
   }
 } 
 
