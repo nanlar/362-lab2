@@ -9,7 +9,7 @@ html {
   line-height: 1.2em;  /* 24px / 20px = 1.2em */
 }
 
-h2, ul, p {
+h2, p {
   padding-bottom: 1.2em; /* 24px / 20px = 1.2em */
 }
 
@@ -32,7 +32,11 @@ input[type=submit] {
     background-color: linen; 
   }
   
-  
+  input[type=submit] {
+  width: 3em;
+  height: 1.5em;
+  color: red;
+  }
 } 
 
 
