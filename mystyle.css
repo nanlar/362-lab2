@@ -2,6 +2,7 @@
    Scroll friendly mobile first version: mystyle.css */
 
 /* ===== My Styles ========= */
+/* I used the Minor Third in my math calculations below  */
 
 html {
   font-family: Helvetica, Arial, sans-serif;
@@ -26,11 +27,15 @@ input[type=submit] {
   width: 5em;
   height: 2em;
   color: red;
+  margin: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   label {
     color: green;
     background-color: linen; 
+  }
+  #submit {
+    margin: 20px;
   }
 } 
