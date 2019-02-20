@@ -3,19 +3,26 @@
 
 /* ===== Basic Styles ========= */
 
+/* Used Minor 3rd 120% in Math calculations below */
+
 html {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.25em;  /* 20px / 16px = 1.25em */
-  line-height: 1.2em;  /* 24px / 20px = 1.2em */
+  font-size: 1.25em;  /* (20px/16px=1.25em) */
+  line-height: 1.2em;  /* (1.2X20=24px) and (24px/20px=1.2em) */
 }
 
-h2, p {
-  padding-bottom: 1.2em; /* 24px / 20px = 1.2em */
+body {
+  font-size: 1.25em;  /* 20px/16px=1.25em */
+  line-height: 1.2em;  /* 1.2X20=, 24px/20px=1.2em */
+  
 }
 
-label {
-  color: blue;
-  background-color: beige;
+p {
+  padding-bottom: 1.2em; /* (24px/20px=1.2em) */
+}
+
+h1 {
+  font-size: 2.5em;  /* (50px/20px=2.5em) */
 }
 
 /* make submit bigger and red for mobile */
@@ -30,12 +37,7 @@ input[type=submit] {
   label {
     color: green;
     background-color: linen; 
-  }
-  
-  input[type=submit] {
-  width: 3em;
-  height: 1.5em;
-  color: red;
+    font-size: 1.3em;
   }
 } 
 
