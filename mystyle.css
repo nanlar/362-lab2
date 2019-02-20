@@ -1,5 +1,5 @@
 /* Nilufer Anlar, ITMD-362 Lab2
-   Scroll friendly mobile first version: mystyle.css */
+   Scroll friendly mobile first version, mystyle.css */
 
 /* ===== My Styles ========= */
 /* I used the Minor Third in my math calculations below */
@@ -42,6 +42,6 @@ input[type=submit] {
     background-color: beige;
   }
   #submit {
-    margin: 90px;
+    margin: 10px;
   }
 }
