@@ -23,18 +23,22 @@ h1 {
   font-size: 2.5em;
 }
 
+label {
+    color: blue;
+    background-color: linen;
+  }
+
 input[type=submit] {
   width: 5em;
   height: 2em;
   color: red;
-  background-color: gray;
   margin: 20px;
 }
 
 @media screen and (min-width: 768px) {
   label {
     color: green;
-    background-color: linen;
+    background-color: beige;
   }
   #submit {
     margin: 50px;
