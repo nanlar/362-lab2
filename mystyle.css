@@ -15,10 +15,9 @@ h2, ul, p {
 
 label {
   display: block;
-  color:green;
+  color: blue;
   background-color: beige;
   font-size: 1.25em;
-  width: auto;
   height: 1.2em;
 }
 
@@ -28,10 +27,7 @@ label {
     display: inline-block;
     color: red;
     background-color: linen;
-    margin-right: 5px;
-    font-size: 1.3em;
-    width: 30%;
-    height: 1.2em;  
+    margin-right: 5px; 
   }
 } 
 
