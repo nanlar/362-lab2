@@ -1,7 +1,7 @@
 /* Nilufer Anlar, ITMD-362 Lab2
    Scroll friendly mobile first version: mystyle.css */
 
-/* ===== Basic Styles ========= */
+/* ===== My Styles ========= */
 
 /* Used Minor 3rd 120% in Math calculations below */
 
@@ -32,12 +32,14 @@ input[type=submit] {
 }
 
 /* for tablets, desktops and wide screens */
+/*
 @media screen and (min-width: 480px) {
   label {
     color: green;
     background-color: linen; 
   }
 } 
+*/
 
 
 
