@@ -1,5 +1,5 @@
 /* Nilufer Anlar, ITMD-362 Lab2
-   Scroll friendly mobile first version: mobilefriendly.css */
+   Scroll friendly mobile first version: mystyle.css */
 
 /* ===== Basic Styles ========= */
 
@@ -18,35 +18,23 @@ label {
   color:green;
   background-color: beige;
   font-size: 1.25em;
-  width: 99%;
+  width: auto;
   height: 1.2em;
 }
 
-/* for phones and tablets ??? */
+/* for tablets, desktops and wide screens */
 @media screen and (min-width: 480px) {
   label {
     display: inline-block;
-    color: blue;
+    color: red;
     background-color: linen;
     margin-right: 5px;
     font-size: 1.3em;
-    width: 40%;
+    width: 30%;
     height: 1.2em;  
   }
 } 
 
-/* for Desktops and wide screens ??? */
-@media screen and (min-width: 992px) {
-  label {
-    display: inline-block;
-    color: red;
-    background-color: beige;
-    margin-right: 5px;
-    font-size: 1.3em;
-    width: 50%;
-    height: 1.2em;  
-  }
-} 
 
 
 
