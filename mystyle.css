@@ -8,17 +8,16 @@
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em;  /* (20px/16px=1.25em) */
-  line-height: 1.2em;  /* (1.2X20=24px) and (24px/20px=1.2em) */
+  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
 }
 
 body {
-  font-size: 1.25em;  /* 20px/16px=1.25em */
-  line-height: 1.2em;  /* 1.2X20=, 24px/20px=1.2em */
-  
-}
+  font-size: 1.25em;  /* (20px/16px=1.25em) */
+  line-height: 1.2em;  /* (1.2X20=24px), (24px/20px=1.2em) */
+  }
 
 p {
-  padding-bottom: 1.2em; /* (24px/20px=1.2em) */
+  padding-bottom: 1.2em;  /* (24px/20px=1.2em) */
 }
 
 h1 {
