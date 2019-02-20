@@ -3,7 +3,6 @@
 
 /* ===== My Styles ========= */
 
-
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25em; 
@@ -23,22 +22,19 @@ h1 {
   font-size: 2.5em;  
 }
 
-/* make submit bigger and red for mobile */
 input[type=submit] {
   width: 5em;
   height: 2em;
   color: red;
 }
 
-/* for tablets, desktops and wide screens */
-/*
 @media screen and (min-width: 480px) {
   label {
     color: green;
     background-color: linen; 
   }
 } 
-*/
+
 
 
 
